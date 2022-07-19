@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "src/index.html",
   "license": "MIT",
+  "homepage": "http://nicolaz888.github.io/nico-card-validation",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   "scripts": {
     "htmlhint": "htmlhint src/*.html test/*.html",
     "eslint": "eslint --ext .js src/ test/",
